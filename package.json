@@ -1,24 +1,22 @@
 {
-  "name": "header_proxy",
-  "version": "1.0.0",
+  "name": "",
+  "version": "",
   "description": "",
-  "main": "server.js",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/06-paulx/Header_proxy.git"
-  },
-  "author": "Francis Lo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/06-paulx/Header_proxy/issues"
-  },
-  "homepage": "https://github.com/06-paulx/Header_proxy#readme",
   "dependencies": {
     "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "morgan": "^1.9.1",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
   }
 }
